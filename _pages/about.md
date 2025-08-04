@@ -13,7 +13,7 @@ profile:
     <p>Saarland Informatics Campus</p>
     <p>Campus E1 4</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -22,7 +22,7 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
@@ -35,4 +35,4 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 <!-- Hi, I'm Eyad! I'm a PhD student at the Max Planck Institute for Informatics (MPI-INF), where I'm part of the Computer Vision and Machine Learning group. My work with the RTG 2853 Neuroexplicit Models of Language, Vision, and Action program focuses on a key question: how do deep learning models actually work? By exploring this, I'm hoping to develop more reliable and trustworthy AI. I've been with the program since October 2024 and am supervised by Prof. Bernt Schiele and co-supervised by Prof. Jilles Vreeken. -->
 
-Hi, I'm Eyad! Since October 2024, I've been a PhD student with the [RTG 2853 Neuroexplicit Models of Language, Vision, and Action program](https://www.neuroexplicit.org/). I work at the [Max Planck Institute for Informatics (MPI-INF)](https://www.mpi-inf.mpg.de/de/departments/computer-vision-and-machine-learning/people/eyad-alshami), where I'm part of the [Explainable Machine Learning Group](https://explainablemachines.com/) within the [Computer Vision and Machine Learning department](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/). My core research mission is to go beyond the "black box" of deep learning. By uncovering how these models think, I hope to create a new generation of AI that we can trust. I'm grateful to be guided in this work by **[Prof. Bernt Schiele](https://scholar.google.com/citations?user=z76PBfYAAAAJ)** and **[Prof. Jilles Vreeken](https://scholar.google.com/citations?user=p5HEQfIAAAAJ&hl=en)**.
+Hi, I'm Eyad! Since October 2024, I've been a PhD student with the [RTG 2853 Neuroexplicit Models of Language, Vision, and Action program](https://www.neuroexplicit.org/). I work at the [Max Planck Institute for Informatics (MPI-INF)](https://www.mpi-inf.mpg.de/de/departments/computer-vision-and-machine-learning/people/eyad-alshami), where I'm part of the [Explainable Machine Learning Group](https://explainablemachines.com/) within the [Computer Vision and Machine Learning department](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/). My core research mission is to go beyond the "black box" of deep learning. By uncovering how these models think, I hope to create a new generation of AI that we can trust. I'm grateful to be supervised by **[Prof. Bernt Schiele](https://scholar.google.com/citations?user=z76PBfYAAAAJ)** and **[Prof. Jilles Vreeken](https://scholar.google.com/citations?user=p5HEQfIAAAAJ&hl=en)**.
