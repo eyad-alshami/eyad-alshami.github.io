@@ -9,14 +9,7 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-teaching",
-          title: "teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/teaching/";
-          },
-        },{id: "post-a-post-with-plotly-js",
+  },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
@@ -432,6 +425,26 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "services-icml1",
+          title: 'Icml1',
+          description: "",
+          section: "Services",handler: () => {
+              window.location.href = "/services/ICML1/";
+            },},{id: "services-neurips1",
+          title: 'Neurips1',
+          description: "",
+          section: "Services",handler: () => {
+              window.location.href = "/services/Neurips1/";
+            },},{id: "services-explainablecomputervision-workshop",
+          title: 'Explainablecomputervision_workshop',
+          description: "",
+          section: "Services",handler: () => {
+              window.location.href = "/services/ExplainableComputerVision_workshop/";
+            },},{id: "teaching-elements-of-data-science-and-artificial-intelligence",
+          title: 'Elements of Data Science and Artificial Intelligence',
+          description: "",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/EDSAI/";
             },},{
         id: 'social-email',
         title: 'email',
