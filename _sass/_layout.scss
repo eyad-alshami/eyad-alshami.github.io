@@ -51,3 +51,66 @@ body.sticky-bottom-footer {
 *****************************************************************************/
 
 // TODO: redefine projects layout.
+
+
+.news,
+.teaching,
+.services {
+  margin-bottom: 2rem;
+  
+  .category {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  
+  .classes-list,
+  .service-list {
+
+    .teaching-item,
+    .service-item {
+      display: flex;
+      align-items: flex-start;
+      // justify-content: space-between;
+
+      margin-bottom: 0.1rem;
+      padding: 0.3rem 0;
+      font-size: 0.95rem;
+
+      .item-class_name,
+      .item-role,
+      .item-venue,
+      .item-year {
+        margin: 0 0.75rem 0 0;
+      }
+      
+      .item-role {
+        max-width: 200px;
+        min-width: 131px;
+        font-weight: 500;
+        color: var(--global-text-color);
+      }
+      
+      .item-class_name,
+      .item-venue {
+        font-style: italic;
+        color: var(--global-text-color-light);
+      }
+      
+      .item-year {
+        color: var(--global-text-color-light);
+        font-weight: 400;
+      }
+      
+      .item-separator {
+        margin: 0 0.75rem;
+        color: var(--global-text-color-light);
+        font-weight: 300;
+      }
+      
+      .item-separator-auto {
+        flex-grow: 1
+      }
+    }
+  }
+}

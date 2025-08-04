@@ -1,0 +1,15 @@
+<div class="teaching">
+  <h2 class="category">Teaching</h2>
+  {% assign classes = site.teaching | sort: "date" | reverse %}
+  <div class="classes-list">
+    {% for item in classes %}
+      <div class="teaching-item">
+        <span class="item-role">{{ item.role }}</span>
+        <span class="item-class_name">{{ item.title }}</span>
+        <span class="item-venue">{{ item.venue }}</span>
+        <span class="item-separator-auto"></span>
+        <span class="item-year">{{ item.date | date: '%Y' }}</span>
+      </div>
+    {% endfor %}
+  </div>  
+</div>
