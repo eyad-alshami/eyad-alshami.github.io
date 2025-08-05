@@ -5,9 +5,13 @@
     {% for item in classes %}
       <div class="teaching-item">
         <span class="item-role">{{ item.role }}</span>
-        <span class="item-class_name">{{ item.title }}</span>
+        {% if item.url %}
+          <a href="{{ item.url }}" class="item-class_name" target="_blank" rel="noopener noreferrer">{{ item.title }}</a>
+        {% else %}
+          <span class="item-class_name">{{ item.title }}</span>
+        {% endif %}
         <span class="item-venue">{{ item.venue }}</span>
-        <span class="item-separator-auto"></span>
+        <span class="item-separator-auto" ></span>
         <span class="item-year">{{ item.date | date: '%Y' }}</span>
       </div>
     {% endfor %}
