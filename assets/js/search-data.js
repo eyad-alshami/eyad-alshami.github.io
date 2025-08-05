@@ -377,7 +377,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-my-paper-aim-amending-inherent-interpretability-via-self-supervised-masking-has-been-accepted-to-iccv-2025",
+            },},{id: "news-my-paper-aim-amending-inherent-interpretability-via-self-supervised-masking-has-been-accepted-to-iccv-2025-as-a-highlight",
           title: 'My paper AIM: Amending Inherent Interpretability via Self-Supervised Masking has been accepted to...',
           description: "",
           section: "News",},{id: "projects-project-1",
