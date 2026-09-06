@@ -380,6 +380,18 @@ ninja.data = [{
             },},{id: "news-my-paper-aim-amending-inherent-interpretability-via-self-supervised-masking-has-been-accepted-to-iccv-2025-as-a-highlight",
           title: 'My paper AIM: Amending Inherent Interpretability via Self-Supervised Masking has been accepted to...',
           description: "",
+          section: "News",},{id: "news-i-participated-in-gcpr-2025-held-september-23-26-2025-in-freiburg-germany",
+          title: 'I participated in GCPR 2025, held September 23–26, 2025, in Freiburg, Germany.',
+          description: "",
+          section: "News",},{id: "news-i-participated-in-the-rtg-2853-neuroexplicit-models-retreat-held-october-24-28-2025",
+          title: 'I participated in the RTG 2853 Neuroexplicit Models Retreat, held October 24–28, 2025....',
+          description: "",
+          section: "News",},{id: "news-i-participated-in-the-saarbrücken-symposium-on-interpretable-trustworthy-and-accountable-artificial-intelligence-held-june-22-23-2026",
+          title: 'I participated in the Saarbrücken Symposium on Interpretable, Trustworthy, and Accountable Artificial Intelligence,...',
+          description: "",
+          section: "News",},{id: "news-i-participated-in-the-mpi-inf-summer-retreat-held-august-10-14-2026",
+          title: 'I participated in the MPI-INF Summer Retreat, held August 10–14, 2026.',
+          description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
@@ -440,6 +452,11 @@ ninja.data = [{
           description: "",
           section: "Services",handler: () => {
               window.location.href = "/services/ExplainableComputerVision_workshop/";
+            },},{id: "services-explainablecomputervision-workshop-eccv2026",
+          title: 'Explainablecomputervision_workshop_eccv2026',
+          description: "",
+          section: "Services",handler: () => {
+              window.location.href = "/services/ExplainableComputerVision_workshop_ECCV2026/";
             },},{id: "teaching-elements-of-data-science-and-artificial-intelligence",
           title: 'Elements of Data Science and Artificial Intelligence',
           description: "",
